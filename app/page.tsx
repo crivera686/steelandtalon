@@ -485,6 +485,27 @@ export default function Page() {
           </div>
         </section>
 
+         <Section>
+            <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-8">What Students Say</h2>
+            <div className="grid md:grid-cols-3 gap-6">
+              {[
+                {name: "A. Arellano", role: "Contractor", quote: "The fundamentals block alone shaved seconds off my runs. Professional staff and a safe, dialed range experience."},
+                {name: "C. Arellano", role: "Teacher", quote: "Clear, confident instruction without the ego. Left with a plan and standards to train on my own."},
+                {name: "K. Goldstein", role: "Groomer", quote: "Solid curriculum. Movement and use‑of‑cover module is worth the ticket by itself."}
+              ].map((t,i)=>(
+                <Card key={i} className="bg-zinc-900/60 border-zinc-800">
+                  <CardContent className="p-6">
+                    <div className="flex items-center gap-2 text-amber-400 mb-2">
+                      <Star className="h-4 w-4"/><Star className="h-4 w-4"/><Star className="h-4 w-4"/><Star className="h-4 w-4"/><Star className="h-4 w-4"/>
+                    </div>
+                    <p className="text-zinc-200 italic">“{t.quote}”</p>
+                    <div className="mt-4 text-sm text-zinc-400">— {t.name}, {t.role}</div>
+                  </CardContent>
+                </Card>
+              ))}
+            </div>
+          </Section>
+        
         {/* GALLERY */}
         <section id="gallery" className="py-16 bg-[#181818]">
           <div className="max-w-6xl mx-auto px-4">
