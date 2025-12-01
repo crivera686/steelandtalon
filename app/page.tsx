@@ -432,8 +432,6 @@ export default function Page() {
           </div>
         </section>
 
-       
-
         {/* ABOUT */}
         <section id="about" className="py-16 bg-zinc-950">
           <div className="max-w-6xl mx-auto px-4 grid md:grid-cols-3 gap-6 text-sm text-zinc-300">
