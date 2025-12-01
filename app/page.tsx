@@ -216,7 +216,50 @@ export default function Page() {
             </div>
           </div>
         </section>
-
+        
+ {/* SCHEDULE */}
+        <section id="schedule" className="py-16 bg-zinc-900">
+          <div className="max-w-6xl mx-auto px-4">
+            <div className="mb-6">
+              <p className="text-[11px] tracking-[0.3em] uppercase text-amber-400 mb-2">
+                Schedule
+              </p>
+              <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-2">
+                Schedule &amp; Booking
+              </h2>
+              <p className="text-zinc-300 text-sm md:text-base max-w-xl">
+                Use the booking link below to pick your course, date, and time.
+                Private and agency training available on request.
+              </p>
+            </div>
+            <div className="bg-zinc-950/70 border border-zinc-800 rounded-2xl p-6 text-sm text-zinc-300">
+              <ol className="list-decimal pl-5 space-y-1 text-xs md:text-sm mb-4">
+                <li>
+                  Select your desired course (Essentials, Defensive, Carbine,
+                  etc.).
+                </li>
+                <li>
+                  Choose an available date and time that fits your schedule.
+                </li>
+                <li>Submit your info and payment to lock in your seat.</li>
+              </ol>
+              <p className="text-xs md:text-sm mb-3">
+                This button should link to your live Calendly (or other
+                booking) page. Right now it uses a placeholder URL you can
+                replace.
+              </p>
+              <a
+                href="https://calendly.com/YOUR-BOOKING-LINK"
+                target="_blank"
+                rel="noreferrer"
+                className="inline-flex items-center justify-center px-5 py-2.5 rounded-lg bg-zinc-100 text-black text-sm font-semibold hover:bg-white"
+              >
+                Open Booking Page
+              </a>
+            </div>
+          </div>
+        </section>
+        
         {/* APPAREL */}
         <section id="apparel" className="py-16 bg-[#1c1914]">
           <div className="max-w-6xl mx-auto px-4">
@@ -389,48 +432,7 @@ export default function Page() {
           </div>
         </section>
 
-        {/* SCHEDULE */}
-        <section id="schedule" className="py-16 bg-zinc-900">
-          <div className="max-w-6xl mx-auto px-4">
-            <div className="mb-6">
-              <p className="text-[11px] tracking-[0.3em] uppercase text-amber-400 mb-2">
-                Schedule
-              </p>
-              <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-2">
-                Schedule &amp; Booking
-              </h2>
-              <p className="text-zinc-300 text-sm md:text-base max-w-xl">
-                Use the booking link below to pick your course, date, and time.
-                Private and agency training available on request.
-              </p>
-            </div>
-            <div className="bg-zinc-950/70 border border-zinc-800 rounded-2xl p-6 text-sm text-zinc-300">
-              <ol className="list-decimal pl-5 space-y-1 text-xs md:text-sm mb-4">
-                <li>
-                  Select your desired course (Essentials, Defensive, Carbine,
-                  etc.).
-                </li>
-                <li>
-                  Choose an available date and time that fits your schedule.
-                </li>
-                <li>Submit your info and payment to lock in your seat.</li>
-              </ol>
-              <p className="text-xs md:text-sm mb-3">
-                This button should link to your live Calendly (or other
-                booking) page. Right now it uses a placeholder URL you can
-                replace.
-              </p>
-              <a
-                href="https://calendly.com/YOUR-BOOKING-LINK"
-                target="_blank"
-                rel="noreferrer"
-                className="inline-flex items-center justify-center px-5 py-2.5 rounded-lg bg-zinc-100 text-black text-sm font-semibold hover:bg-white"
-              >
-                Open Booking Page
-              </a>
-            </div>
-          </div>
-        </section>
+       
 
         {/* ABOUT */}
         <section id="about" className="py-16 bg-zinc-950">
