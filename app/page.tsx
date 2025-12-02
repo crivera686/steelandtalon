@@ -110,10 +110,10 @@ export default function Page() {
                 <div className="absolute bottom-4 left-4 right-4">
                   <div className="inline-flex flex-col bg-black/70 backdrop-blur px-4 py-3 rounded-xl border border-zinc-700/60">
                     <span className="text-[11px] tracking-[0.25em] uppercase text-amber-400 mb-1">
-                      Slogan
+                      STEEL & TALON
                     </span>
                     <span className="text-xl md:text-2xl font-extrabold tracking-wide text-zinc-50">
-                      Train Hard, Stay Sharp
+                      Train Hard, Dont Die!
                     </span>
                   </div>
                 </div>
