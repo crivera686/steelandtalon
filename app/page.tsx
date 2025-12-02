@@ -24,7 +24,7 @@ export default function Page() {
                 Steel & Talon
               </span>
               <span className="text-[11px] uppercase tracking-[0.2em] text-zinc-400">
-                Train Hard, Stay Sharp
+                Train Hard, Dont Die!
               </span>
             </div>
           </a>
@@ -611,7 +611,7 @@ export default function Page() {
         <div className="max-w-6xl mx-auto px-4 flex flex-col md:flex-row items-center md:items-start justify-between gap-4">
           <div>
             <div className="font-black text-zinc-100">Steel &amp; Talon</div>
-            <div className="text-xs text-zinc-400">Train Hard, Stay Sharp</div>
+            <div className="text-xs text-zinc-400">Train Hard, Dont Die</div>
             <div className="mt-2">
               © {new Date().getFullYear()} Steel &amp; Talon. All rights
               reserved.
